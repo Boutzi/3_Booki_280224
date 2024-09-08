@@ -1,6 +1,6 @@
 # Project 3
 
-## Book
+## Booki
 
 Create the homepage of a travel agency with HTML & CSS
 

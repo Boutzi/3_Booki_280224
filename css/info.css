@@ -1,0 +1,163 @@
+.info-group {
+    background: none;
+}
+
+.info-group__section {
+    margin-bottom: 25px;
+}
+
+
+.info-group__section h2 {
+    line-height: 2.5rem;
+}
+
+/* LOCATION */
+.section__location form {
+    height: 49px;
+    display: flex;
+    width: fit-content;
+    font-size: 0;
+    border-radius: 15px;
+    border-top: 1px solid var(--filter-bg-color);
+    border-bottom: 1px solid var(--filter-bg-color);
+    border-left: 1px solid var(--filter-bg-color);
+    border-right: 1px solid var(--filter-bg-color);
+}
+
+.location__form {
+    height: 49px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.form__icon {
+    background: var(--main-bg-color);
+    width: 50px;
+    height: 47px;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    border-right: 1px solid var(--filter-bg-color);
+}
+
+.form__icon i {
+    color: #000;
+    line-height: 47px;
+    width: 49px;
+}
+
+.section__location input,
+.section__location button {
+    height: 100%;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color:#000;
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0 15px;
+} 
+
+.section__location input:hover {
+    outline: none;
+}
+
+.section__location input {
+    width: 200px;
+    padding: 0 15px; 
+    background-color: #ffffff; 
+    border: none;
+}
+
+.section__location input:focus {
+    outline: none;
+    background-color: #ffffff; 
+}
+
+.section__location input::placeholder {
+    color: #6d6d6d;
+    font-weight: 400;
+}
+
+.section__location button {
+    padding: 0 15px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 0 15px 15px 0;
+}
+
+.section__location button:hover {
+    background-color: rgb(5, 61, 121); 
+    cursor: pointer;
+}
+
+.section__location button:active {
+    background-color: rgb(3, 25, 48); 
+}
+
+.location__form .mobile {
+    display: none;
+}
+
+.location__form .mobile i {
+    color: #FFF;
+}
+
+.location__form .desktop {
+    display: inline;
+}
+
+/* FILTERS */
+.section__filter {
+    height: 49px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section__filter h2 {
+    margin: 0 10px 2px 0;
+}
+
+.filter__button {
+    margin: 0 5px;
+    border: 2px #dadada solid;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.filter__button i {
+    margin: 0 10px 0 0;
+    color: var(--main-color);
+}
+
+.filter__button:hover {
+    background-color: #eef6ff;
+    cursor: pointer;
+}
+
+
+/* Info */
+
+.section__info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info__icon {
+    background: #F2F2F2;
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    margin-right: 10px;
+}
+
+.info__icon i {
+    color: var(--main-color);
+    line-height: 24px;
+}

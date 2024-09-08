@@ -1,0 +1,42 @@
+.activities {
+  width: fit-content;
+  margin: 0 30px;
+}
+
+.activities__title {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.activities__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 33px;
+}
+
+.activities__cards .card {
+  height: 439px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+}
+
+.activities__cards .card img {
+  width: 100%;
+  height: 380px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.activities__cards a {
+  width: 100%;
+  display: flex;
+}
+
+.activities__cards .card h2 {
+  margin: 15px 0 15px 10px;
+}

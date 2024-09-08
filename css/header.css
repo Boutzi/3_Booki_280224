@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 79px;
+}
+
+.header__logo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-content__logo {
+  height: 19px;
+}
+
+.header__main-nav {
+  display: flex;
+  flex-direction: row;
+  width: 244px;
+  height: 35px;
+  justify-content: space-between;
+}
+
+.main-nav__button {
+  display: inline-block;
+  text-align: center;
+  padding-top: 15px;
+  border-top: 2px solid transparent;
+}
+
+.main-nav__button:hover {
+  color: var(--main-color);
+  cursor: pointer;
+  border-top: 2px solid var(--main-color);
+}
+
+.ischecked {
+  color: var(--main-color);
+  border-top: 2px solid var(--main-color);
+}

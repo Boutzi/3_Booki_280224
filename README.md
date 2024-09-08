@@ -1,6 +1,14 @@
-# booki-starter-pack
+# Project 3
 
-### GitHub
-[Suivi du rendu des projets](https://boutzi.github.io/openclassrooms/)  
+## Book
 
-[Suivi du code des projets](https://github.com/Boutzi/openclassrooms/tree/main/integrateur-web)  
+Create the homepage of a travel agency with HTML & CSS
+
+## Installation
+
+### Clone the Repository
+```bash
+    git clone https://github.com/Boutzi/oc-integrateur-web-p3.git
+```
+### Start the project
+open **index.html** with Live Server
